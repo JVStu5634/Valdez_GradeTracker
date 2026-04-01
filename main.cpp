@@ -24,4 +24,26 @@ cout << "Enter student name: ";
 cin >> studentName;
 cout << endl;
 
-cout << "Enter up to 5 scores: "
+while (count < 5) {
+
+    cout << "Enter up to 5 scores or -1 to stop: ";
+    cin >> score;
+
+if (score == -1) {
+    break;
+}
+
+if (score < 0 || score > 100) {
+    cout << "Error: Score must be between 0 and 100." << endl;
+    continue;
+}
+
+total += score;
+count++;
+}
+
+if (count == 0) {
+    cout << "No scores entered." << endl;
+    return 1;
+}
+    
