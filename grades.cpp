@@ -5,17 +5,17 @@
 
 #include "grades.h"
 
-char getLetterGrade(int score) {
-  if (score >= 90) {
+char getLetterGrade(int average) {
+  if (average >= 90) {
     return LetterGrade::A;
   }
-  else if (score >= 80) {
+  else if (average >= 80) {
     return LetterGrade::B;
   }
-  else if (score >= 70) {
+  else if (average >= 70) {
     return LetterGrade::C;
   }
-  else if (score >= 60) {
+  else if (average >= 60) {
     return LetterGrade::D;
   }
   else {
