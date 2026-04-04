@@ -7,7 +7,7 @@
 #ifndef GRADES_H
 #define Grades_H
 
-enum class LetterGrade { 
+enum LetterGrade { 
 A,
 B,
 C,
