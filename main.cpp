@@ -21,6 +21,8 @@ int main()
   int count = 0;
   int average;
 
+cout << fixed << showpoint << setprecision(2);
+
 cout << "Enter student name: ";
 cin >> studentName;
 cout << endl;
