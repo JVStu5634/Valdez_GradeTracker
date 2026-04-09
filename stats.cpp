@@ -9,7 +9,6 @@ double computeAverage(double total, int count, int average) {
   if (count == 0) {
       return 0.0;
   }
-  else { 
-    average = total / count;
-    return average;
+    return total / count;
   }
+average = computeAverage();
