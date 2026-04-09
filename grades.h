@@ -7,13 +7,7 @@
 #ifndef GRADES_H
 #define Grades_H
 
-enum LetterGrade { 
-A,
-B,
-C,
-D,
-F
-};
+enum LetterGrade { A, B, C, D, F };
 
 LetterGrade getLettergrade(int average);
 
