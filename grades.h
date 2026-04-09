@@ -5,7 +5,7 @@
 // declare a function called getLetterGrade and  a function called gradeToChar that takes a LetterGrade and returns a char.
 
 #ifndef GRADES_H
-#define Grades_H
+#define GRADES_H
 
 enum LetterGrade { A, B, C, D, F };
 
