@@ -95,12 +95,13 @@ default:
   return '?';
   }
 }
-
+char Lettergrade = gradeToChar();
+  
 cout << "--- Report for " << studentName << " ---" << endl;
 cout << "Number of scores entered: " << count << endl;
 cout << "Total points: " << total << endl;
 cout << "Average: " << average << endl;
-cout << "Letter grade: " << grade << endl;
+cout << "Letter grade: " << Lettergrade << endl;
 
 
 return 0;
